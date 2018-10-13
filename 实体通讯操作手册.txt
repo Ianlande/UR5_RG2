@@ -1,0 +1,19 @@
+UR5本体实物通信测试：
+
+打开一个新的终端
+(1) cd ~/catkin_ws
+(2) source devel/setup.bash
+(3) roslaunch ur_modern_driver ur5_bringup.launch robot_ip:=192.168.1.102
+
+打开一个新的终端
+(1) cd ~/catkin_ws
+(2) source devel/setup.bash
+(3) roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch limited:=true
+
+打开一个新的终端
+(1) cd ~/catkin_ws
+(2) source devel/setup.bash
+(3)roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+
+如果一切正常， 你就会看到RVIZ中的UR5机械臂和实物的状态是一致的，拖动UR5机械臂实物，在RVIZ里的机械臂也会跟着运动。此时，你可以在RVIZ中用鼠标拖动机械臂到达目标位置，在planing下点击plan,如果路径规划成功即可点击execute,你就会看到UR5实物也会跟着运动到目标点。
+到此，UR5本体在ROS系统上的通信和控制都建立成功了。
