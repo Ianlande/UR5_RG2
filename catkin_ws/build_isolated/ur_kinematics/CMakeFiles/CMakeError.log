@@ -1,0 +1,53 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec419725043/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec419725043.dir/build.make CMakeFiles/cmTryCompileExec419725043.dir/build
+make[1]: 正在进入目录 `/home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec419725043.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec419725043.dir/CheckSymbolExists.c.o   -c /home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec419725043
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec419725043.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec419725043.dir/CheckSymbolExists.c.o  -o cmTryCompileExec419725043 -rdynamic 
+CMakeFiles/cmTryCompileExec419725043.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec419725043] 错误 1
+make[1]:正在离开目录 `/home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec419725043/fast] 错误 2
+
+File /home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec826069313/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec826069313.dir/build.make CMakeFiles/cmTryCompileExec826069313.dir/build
+make[1]: 正在进入目录 `/home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec826069313.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec826069313.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec826069313
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec826069313.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec826069313.dir/CheckFunctionExists.c.o  -o cmTryCompileExec826069313 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec826069313] 错误 1
+make[1]:正在离开目录 `/home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec826069313/fast] 错误 2
+
+

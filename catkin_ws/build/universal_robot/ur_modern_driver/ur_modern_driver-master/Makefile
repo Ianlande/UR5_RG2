@@ -360,90 +360,6 @@ geometry_msgs_generate_messages_py/fast:
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_py.dir/build.make universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
 	cd /home/longyucheng/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
@@ -858,12 +774,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_py"

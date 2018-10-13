@@ -399,6 +399,12 @@ random_numbers_DIR:PATH=/opt/ros/indigo/share/random_numbers/cmake
 //The directory containing a CMake configuration file for realtime_tools.
 realtime_tools_DIR:PATH=/opt/ros/indigo/share/realtime_tools/cmake
 
+//Value Computed by CMake
+robot_else_nodes_BINARY_DIR:STATIC=/home/longyucheng/catkin_ws/build/robot_else_nodes
+
+//Value Computed by CMake
+robot_else_nodes_SOURCE_DIR:STATIC=/home/longyucheng/catkin_ws/src/robot_else_nodes
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
 
@@ -679,7 +685,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=12
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

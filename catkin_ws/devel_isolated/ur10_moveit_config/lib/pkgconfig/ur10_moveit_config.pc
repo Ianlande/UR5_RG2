@@ -1,0 +1,8 @@
+prefix=/home/longyucheng/catkin_ws/devel_isolated/ur10_moveit_config
+
+Name: ur10_moveit_config
+Description: Description of ur10_moveit_config
+Version: 1.1.11
+Cflags: 
+Libs: -L/home/longyucheng/catkin_ws/devel_isolated/ur10_moveit_config/lib 
+Requires: 

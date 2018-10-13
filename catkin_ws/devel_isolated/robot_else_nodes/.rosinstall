@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/longyucheng/catkin_ws/devel_isolated/robot_else_nodes/setup.sh

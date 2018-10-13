@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/longyucheng/catkin_ws/install_isolated/setup.sh

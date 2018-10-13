@@ -21,8 +21,6 @@ flags = [
 '-isystem',
 '/home/longyucheng/catkin_ws/devel/include',
 '-isystem',
-'/home/longyucheng/catkin_ws/src/CMakeLists.txt/include',
-'-isystem',
 '/home/longyucheng/catkin_ws/src/universal_robot/include'
 ]
 
