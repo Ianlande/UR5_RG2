@@ -1,0 +1,8 @@
+prefix=/home/longyucheng/catkin_ws/install
+
+Name: ur_driver
+Description: Description of ur_driver
+Version: 1.1.11
+Cflags: -I/home/longyucheng/catkin_ws/install/include
+Libs: -L/home/longyucheng/catkin_ws/install/lib 
+Requires: dynamic_reconfigure

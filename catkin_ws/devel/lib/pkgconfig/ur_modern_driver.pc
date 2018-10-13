@@ -1,0 +1,8 @@
+prefix=/home/longyucheng/catkin_ws/devel
+
+Name: ur_modern_driver
+Description: Description of ur_modern_driver
+Version: 0.0.1
+Cflags: -I/home/longyucheng/catkin_ws/src/universal_robot/ur_modern_driver/ur_modern_driver-master/include
+Libs: -L/home/longyucheng/catkin_ws/devel/lib 
+Requires: hardware_interface controller_manager actionlib control_msgs geometry_msgs roscpp sensor_msgs trajectory_msgs ur_msgs

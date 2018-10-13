@@ -1,0 +1,8 @@
+prefix=/home/longyucheng/catkin_ws/devel
+
+Name: ur_msgs
+Description: Description of ur_msgs
+Version: 1.1.11
+Cflags: -I/home/longyucheng/catkin_ws/devel/include
+Libs: -L/home/longyucheng/catkin_ws/devel/lib 
+Requires: message_runtime std_msgs

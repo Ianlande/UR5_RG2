@@ -1,0 +1,15 @@
+(cl:defpackage ur_msgs-srv
+  (:use )
+  (:export
+   "SETPAYLOAD"
+   "<SETPAYLOAD-REQUEST>"
+   "SETPAYLOAD-REQUEST"
+   "<SETPAYLOAD-RESPONSE>"
+   "SETPAYLOAD-RESPONSE"
+   "SETIO"
+   "<SETIO-REQUEST>"
+   "SETIO-REQUEST"
+   "<SETIO-RESPONSE>"
+   "SETIO-RESPONSE"
+  ))
+
