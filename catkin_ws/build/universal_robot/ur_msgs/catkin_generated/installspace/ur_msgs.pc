@@ -1,8 +1,8 @@
-prefix=/home/longyucheng/catkin_ws/install
+prefix=/home/longyucheng/robot_ur5/catkin_ws/install
 
 Name: ur_msgs
 Description: Description of ur_msgs
 Version: 1.1.11
-Cflags: -I/home/longyucheng/catkin_ws/install/include
-Libs: -L/home/longyucheng/catkin_ws/install/lib 
+Cflags: -I/home/longyucheng/robot_ur5/catkin_ws/install/include
+Libs: -L/home/longyucheng/robot_ur5/catkin_ws/install/lib 
 Requires: message_runtime std_msgs

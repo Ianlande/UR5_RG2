@@ -8,7 +8,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/longyucheng/catkin_ws/devel_isolated/ur_bringup}
+: ${_CATKIN_SETUP_DIR:=/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_bringup}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

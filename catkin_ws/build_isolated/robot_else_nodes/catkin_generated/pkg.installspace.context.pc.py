@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "robot_else_nodes"
-PROJECT_SPACE_DIR = "/home/longyucheng/catkin_ws/install_isolated"
+PROJECT_SPACE_DIR = "/home/longyucheng/robot_ur5/catkin_ws/install_isolated"
 PROJECT_VERSION = "0.0.0"

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/longyucheng/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/longyucheng/robot_ur5/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/longyucheng/catkin_ws/build
+CMAKE_BINARY_DIR = /home/longyucheng/robot_ur5/catkin_ws/build
 
 # Utility rule file for _ur_msgs_generate_messages_check_deps_IOStates.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/longyucheng/catkin_ws/build
 include universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/progress.make
 
 universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates:
-	cd /home/longyucheng/catkin_ws/build/universal_robot/ur_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ur_msgs /home/longyucheng/catkin_ws/src/universal_robot/ur_msgs/msg/IOStates.msg ur_msgs/Analog:ur_msgs/Digital
+	cd /home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ur_msgs /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_msgs/msg/IOStates.msg ur_msgs/Digital:ur_msgs/Analog
 
 _ur_msgs_generate_messages_check_deps_IOStates: universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates
 _ur_msgs_generate_messages_check_deps_IOStates: universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/build.make
@@ -57,10 +57,10 @@ universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOState
 .PHONY : universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/build
 
 universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/clean:
-	cd /home/longyucheng/catkin_ws/build/universal_robot/ur_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/cmake_clean.cmake
+	cd /home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/cmake_clean.cmake
 .PHONY : universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/clean
 
 universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/depend:
-	cd /home/longyucheng/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/catkin_ws/src /home/longyucheng/catkin_ws/src/universal_robot/ur_msgs /home/longyucheng/catkin_ws/build /home/longyucheng/catkin_ws/build/universal_robot/ur_msgs /home/longyucheng/catkin_ws/build/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/longyucheng/robot_ur5/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/robot_ur5/catkin_ws/src /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_msgs /home/longyucheng/robot_ur5/catkin_ws/build /home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_msgs /home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/depend
 

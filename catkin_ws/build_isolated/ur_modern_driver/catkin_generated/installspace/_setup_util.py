@@ -263,7 +263,7 @@ if __name__ == '__main__':
             sys.exit(1)
 
         # environment at generation time
-        CMAKE_PREFIX_PATH = '/home/longyucheng/catkin_ws/devel_isolated/ur_msgs;/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics;/home/longyucheng/catkin_ws/devel_isolated/ur_gazebo;/home/longyucheng/catkin_ws/devel_isolated/ur5_moveit_config;/home/longyucheng/catkin_ws/devel_isolated/ur3_moveit_config;/home/longyucheng/catkin_ws/devel_isolated/ur10_moveit_config;/home/longyucheng/catkin_ws/devel_isolated/ur_description;/home/longyucheng/catkin_ws/devel_isolated/ur_bringup;/home/longyucheng/catkin_ws/devel_isolated/universal_robot;/home/longyucheng/catkin_ws/devel_isolated/robot_else_nodes;/home/longyucheng/catkin_ws/devel;/opt/ros/indigo'.split(';')
+        CMAKE_PREFIX_PATH = '/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_msgs;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_gazebo;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur5_moveit_config;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur3_moveit_config;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur10_moveit_config;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_description;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_bringup;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/universal_robot;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/robot_else_nodes;/opt/ros/indigo'.split(';')
         # prepend current workspace if not already part of CPP
         base_path = os.path.dirname(__file__)
         if base_path not in CMAKE_PREFIX_PATH:

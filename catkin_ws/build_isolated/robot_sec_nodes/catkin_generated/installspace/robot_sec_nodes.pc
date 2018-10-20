@@ -1,8 +1,0 @@
-prefix=/home/longyucheng/catkin_ws/install_isolated
-
-Name: robot_sec_nodes
-Description: Description of robot_sec_nodes
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/longyucheng/catkin_ws/install_isolated/lib 
-Requires: 

@@ -17,8 +17,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/longyucheng/catkin_ws/src/universal_robot/ur_modern_driver/ur_modern_driver-master/include"
-  "/home/longyucheng/catkin_ws/devel/include"
+  "/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_modern_driver/ur_modern_driver-master/include"
+  "/home/longyucheng/robot_ur5/catkin_ws/devel/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/longyucheng/catkin_ws/src/universal_robot/ur_msgs
+CMAKE_SOURCE_DIR = /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/longyucheng/catkin_ws/build_isolated/ur_msgs
+CMAKE_BINARY_DIR = /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_msgs
 
 # Utility rule file for ur_msgs_genpy.
 
@@ -60,6 +60,6 @@ CMakeFiles/ur_msgs_genpy.dir/clean:
 .PHONY : CMakeFiles/ur_msgs_genpy.dir/clean
 
 CMakeFiles/ur_msgs_genpy.dir/depend:
-	cd /home/longyucheng/catkin_ws/build_isolated/ur_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/catkin_ws/src/universal_robot/ur_msgs /home/longyucheng/catkin_ws/src/universal_robot/ur_msgs /home/longyucheng/catkin_ws/build_isolated/ur_msgs /home/longyucheng/catkin_ws/build_isolated/ur_msgs /home/longyucheng/catkin_ws/build_isolated/ur_msgs/CMakeFiles/ur_msgs_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_msgs /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_msgs /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_msgs /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_msgs /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_msgs/CMakeFiles/ur_msgs_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ur_msgs_genpy.dir/depend
 

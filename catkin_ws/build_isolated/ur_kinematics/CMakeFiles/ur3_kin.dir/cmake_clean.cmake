@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/ur3_kin.dir/src/ur_kin.cpp.o"
-  "/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur3_kin.pdb"
-  "/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur3_kin.so"
+  "/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur3_kin.pdb"
+  "/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur3_kin.so"
 )
 
 # Per-language clean rules from dependency scanning.

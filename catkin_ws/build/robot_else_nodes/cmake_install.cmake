@@ -1,8 +1,8 @@
-# Install script for directory: /home/longyucheng/catkin_ws/src/robot_else_nodes
+# Install script for directory: /home/longyucheng/robot_ur5/catkin_ws/src/robot_else_nodes
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/longyucheng/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/longyucheng/robot_ur5/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/longyucheng/catkin_ws/build/robot_else_nodes/catkin_generated/installspace/robot_else_nodes.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/longyucheng/robot_ur5/catkin_ws/build/robot_else_nodes/catkin_generated/installspace/robot_else_nodes.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_else_nodes/cmake" TYPE FILE FILES
-    "/home/longyucheng/catkin_ws/build/robot_else_nodes/catkin_generated/installspace/robot_else_nodesConfig.cmake"
-    "/home/longyucheng/catkin_ws/build/robot_else_nodes/catkin_generated/installspace/robot_else_nodesConfig-version.cmake"
+    "/home/longyucheng/robot_ur5/catkin_ws/build/robot_else_nodes/catkin_generated/installspace/robot_else_nodesConfig.cmake"
+    "/home/longyucheng/robot_ur5/catkin_ws/build/robot_else_nodes/catkin_generated/installspace/robot_else_nodesConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_else_nodes" TYPE FILE FILES "/home/longyucheng/catkin_ws/src/robot_else_nodes/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_else_nodes" TYPE FILE FILES "/home/longyucheng/robot_ur5/catkin_ws/src/robot_else_nodes/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

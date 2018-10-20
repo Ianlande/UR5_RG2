@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/longyucheng/catkin_ws/src/universal_robot/ur_modern_driver/ur_modern_driver-master/src/ur_hardware_interface.cpp" "/home/longyucheng/catkin_ws/build/universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/ur_hardware_interface.dir/src/ur_hardware_interface.cpp.o"
+  "/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_modern_driver/ur_modern_driver-master/src/ur_hardware_interface.cpp" "/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_modern_driver/ur_modern_driver-master/CMakeFiles/ur_hardware_interface.dir/src/ur_hardware_interface.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,8 +22,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/longyucheng/catkin_ws/src/universal_robot/ur_modern_driver/ur_modern_driver-master/include"
-  "/home/longyucheng/catkin_ws/devel/include"
+  "/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_modern_driver/ur_modern_driver-master/include"
+  "/home/longyucheng/robot_ur5/catkin_ws/devel/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

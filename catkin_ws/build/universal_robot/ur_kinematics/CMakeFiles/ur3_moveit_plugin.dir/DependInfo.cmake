@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp" "/home/longyucheng/catkin_ws/build/universal_robot/ur_kinematics/CMakeFiles/ur3_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o"
+  "/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp" "/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_kinematics/CMakeFiles/ur3_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,12 +18,12 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/longyucheng/catkin_ws/build/universal_robot/ur_kinematics/CMakeFiles/ur3_kin.dir/DependInfo.cmake"
+  "/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_kinematics/CMakeFiles/ur3_kin.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics/include"
+  "/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics/include"
   "/opt/ros/indigo/include"
   "/usr/include/eigen3"
   )

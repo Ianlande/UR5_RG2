@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/longyucheng/catkin_ws/devel/setup.sh
+    local-name: /home/longyucheng/robot_ur5/catkin_ws/devel/setup.sh

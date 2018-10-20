@@ -1,8 +1,8 @@
-prefix=/home/longyucheng/catkin_ws/devel
+prefix=/home/longyucheng/robot_ur5/catkin_ws/devel
 
 Name: ur_gazebo
 Description: Description of ur_gazebo
 Version: 1.1.11
 Cflags: 
-Libs: -L/home/longyucheng/catkin_ws/devel/lib 
+Libs: -L/home/longyucheng/robot_ur5/catkin_ws/devel/lib 
 Requires: 

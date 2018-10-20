@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp
+Change Dir: /home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1409686409/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1409686409.dir/build.make CMakeFiles/cmTryCompileExec1409686409.dir/build
-make[1]: 正在进入目录 `/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1409686409.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1409686409.dir/CheckSymbolExists.c.o   -c /home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec1409686409
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1409686409.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1409686409.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1409686409 -rdynamic 
-CMakeFiles/cmTryCompileExec1409686409.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Run Build Command:/usr/bin/make "cmTryCompileExec1165804566/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1165804566.dir/build.make CMakeFiles/cmTryCompileExec1165804566.dir/build
+make[1]: 正在进入目录 `/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1165804566.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1165804566.dir/CheckSymbolExists.c.o   -c /home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1165804566
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1165804566.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1165804566.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1165804566 -rdynamic 
+CMakeFiles/cmTryCompileExec1165804566.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec1409686409] 错误 1
-make[1]:正在离开目录 `/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1409686409/fast] 错误 2
+make[1]: *** [cmTryCompileExec1165804566] 错误 1
+make[1]:正在离开目录 `/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1165804566/fast] 错误 2
 
-File /home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -33,21 +33,21 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp
+Change Dir: /home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3975276493/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3975276493.dir/build.make CMakeFiles/cmTryCompileExec3975276493.dir/build
-make[1]: 正在进入目录 `/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3975276493.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3975276493.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3975276493
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3975276493.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3975276493.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3975276493 -rdynamic -lpthreads 
+Run Build Command:/usr/bin/make "cmTryCompileExec3865511951/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3865511951.dir/build.make CMakeFiles/cmTryCompileExec3865511951.dir/build
+make[1]: 正在进入目录 `/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3865511951.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3865511951.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3865511951
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3865511951.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3865511951.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3865511951 -rdynamic -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec3975276493] 错误 1
-make[1]:正在离开目录 `/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec3975276493/fast] 错误 2
+make[1]: *** [cmTryCompileExec3865511951] 错误 1
+make[1]:正在离开目录 `/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3865511951/fast] 错误 2
 
 

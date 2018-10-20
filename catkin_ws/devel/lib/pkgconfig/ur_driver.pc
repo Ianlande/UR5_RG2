@@ -1,8 +1,0 @@
-prefix=/home/longyucheng/catkin_ws/devel
-
-Name: ur_driver
-Description: Description of ur_driver
-Version: 1.1.11
-Cflags: -I/home/longyucheng/catkin_ws/devel/include
-Libs: -L/home/longyucheng/catkin_ws/devel/lib 
-Requires: dynamic_reconfigure

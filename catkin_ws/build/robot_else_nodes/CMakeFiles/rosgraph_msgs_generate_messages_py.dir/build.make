@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/longyucheng/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/longyucheng/robot_ur5/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/longyucheng/catkin_ws/build
+CMAKE_BINARY_DIR = /home/longyucheng/robot_ur5/catkin_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_py.
 
@@ -56,10 +56,10 @@ robot_else_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build: rosgra
 .PHONY : robot_else_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 
 robot_else_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	cd /home/longyucheng/catkin_ws/build/robot_else_nodes && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/longyucheng/robot_ur5/catkin_ws/build/robot_else_nodes && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : robot_else_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 robot_else_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend:
-	cd /home/longyucheng/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/catkin_ws/src /home/longyucheng/catkin_ws/src/robot_else_nodes /home/longyucheng/catkin_ws/build /home/longyucheng/catkin_ws/build/robot_else_nodes /home/longyucheng/catkin_ws/build/robot_else_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/longyucheng/robot_ur5/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/robot_ur5/catkin_ws/src /home/longyucheng/robot_ur5/catkin_ws/src/robot_else_nodes /home/longyucheng/robot_ur5/catkin_ws/build /home/longyucheng/robot_ur5/catkin_ws/build/robot_else_nodes /home/longyucheng/robot_ur5/catkin_ws/build/robot_else_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_else_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 

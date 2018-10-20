@@ -1,4 +1,4 @@
 #!/usr/bin/env zsh
 # generated from catkin.builder module
 
-. "/home/longyucheng/catkin_ws/devel_isolated/ur_modern_driver/setup.zsh"
+. "/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_modern_driver/setup.zsh"

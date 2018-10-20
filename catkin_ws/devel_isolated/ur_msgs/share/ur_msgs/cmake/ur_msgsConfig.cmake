@@ -67,14 +67,14 @@ set(ur_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(ur_msgs_SOURCE_PREFIX /home/longyucheng/catkin_ws/src/universal_robot/ur_msgs)
-  set(ur_msgs_DEVEL_PREFIX /home/longyucheng/catkin_ws/devel_isolated/ur_msgs)
+  set(ur_msgs_SOURCE_PREFIX /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_msgs)
+  set(ur_msgs_DEVEL_PREFIX /home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_msgs)
   set(ur_msgs_INSTALL_PREFIX "")
   set(ur_msgs_PREFIX ${ur_msgs_DEVEL_PREFIX})
 else()
   set(ur_msgs_SOURCE_PREFIX "")
   set(ur_msgs_DEVEL_PREFIX "")
-  set(ur_msgs_INSTALL_PREFIX /home/longyucheng/catkin_ws/install_isolated)
+  set(ur_msgs_INSTALL_PREFIX /home/longyucheng/robot_ur5/catkin_ws/install_isolated)
   set(ur_msgs_PREFIX ${ur_msgs_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(ur_msgs_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/longyucheng/catkin_ws/devel_isolated/ur_msgs/include " STREQUAL " ")
+if(NOT "/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_msgs/include " STREQUAL " ")
   set(ur_msgs_INCLUDE_DIRS "")
-  set(_include_dirs "/home/longyucheng/catkin_ws/devel_isolated/ur_msgs/include")
+  set(_include_dirs "/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_msgs/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -103,7 +103,7 @@ if(NOT "/home/longyucheng/catkin_ws/devel_isolated/ur_msgs/include " STREQUAL " 
         message(FATAL_ERROR "Project 'ur_msgs' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Felix Messmer <fxm@ipa.fhg.de>, G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'ur_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/longyucheng/catkin_ws/src/universal_robot/ur_msgs/${idir}'.  Ask the maintainer 'Felix Messmer <fxm@ipa.fhg.de>, G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>' to fix it.")
+      message(FATAL_ERROR "Project 'ur_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_msgs/${idir}'.  Ask the maintainer 'Felix Messmer <fxm@ipa.fhg.de>, G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>' to fix it.")
     endif()
     _list_append_unique(ur_msgs_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/longyucheng/catkin_ws/devel_isolated/ur_msgs/lib;/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib;/home/longyucheng/catkin_ws/devel_isolated/ur_gazebo/lib;/home/longyucheng/catkin_ws/devel_isolated/ur5_moveit_config/lib;/home/longyucheng/catkin_ws/devel_isolated/ur3_moveit_config/lib;/home/longyucheng/catkin_ws/devel_isolated/ur10_moveit_config/lib;/home/longyucheng/catkin_ws/devel_isolated/ur_description/lib;/home/longyucheng/catkin_ws/devel_isolated/ur_bringup/lib;/home/longyucheng/catkin_ws/devel_isolated/universal_robot/lib;/home/longyucheng/catkin_ws/devel_isolated/robot_else_nodes/lib;/home/longyucheng/catkin_ws/devel/lib;/opt/ros/indigo/lib)
+    foreach(path /home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_msgs/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_gazebo/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur5_moveit_config/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur3_moveit_config/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur10_moveit_config/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_description/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_bringup/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/universal_robot/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/robot_else_nodes/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

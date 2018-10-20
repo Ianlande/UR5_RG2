@@ -15,7 +15,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics/include"
+  "/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics/include"
   "/opt/ros/indigo/include"
   "/usr/include/eigen3"
   )

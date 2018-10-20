@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/longyucheng/catkin_ws/src/universal_robot/ur_description
+CMAKE_SOURCE_DIR = /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/longyucheng/catkin_ws/build_isolated/ur_description
+CMAKE_BINARY_DIR = /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description
 
 # Utility rule file for clean_test_results.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/longyucheng/catkin_ws/build_isolated/ur_description
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /opt/ros/indigo/share/catkin/cmake/test/remove_test_results.py /home/longyucheng/catkin_ws/build_isolated/ur_description/test_results
+	/usr/bin/python /opt/ros/indigo/share/catkin/cmake/test/remove_test_results.py /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -61,6 +61,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/longyucheng/catkin_ws/build_isolated/ur_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/catkin_ws/src/universal_robot/ur_description /home/longyucheng/catkin_ws/src/universal_robot/ur_description /home/longyucheng/catkin_ws/build_isolated/ur_description /home/longyucheng/catkin_ws/build_isolated/ur_description /home/longyucheng/catkin_ws/build_isolated/ur_description/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_description /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_description /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

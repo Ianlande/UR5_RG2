@@ -1,8 +1,8 @@
-/home/longyucheng/catkin_ws/build_isolated/ur_description/CMakeFiles/_catkin_empty_exported_target.dir
-/home/longyucheng/catkin_ws/build_isolated/ur_description/CMakeFiles/clean_test_results.dir
-/home/longyucheng/catkin_ws/build_isolated/ur_description/CMakeFiles/download_extra_data.dir
-/home/longyucheng/catkin_ws/build_isolated/ur_description/CMakeFiles/doxygen.dir
-/home/longyucheng/catkin_ws/build_isolated/ur_description/gtest/CMakeFiles/gtest.dir
-/home/longyucheng/catkin_ws/build_isolated/ur_description/gtest/CMakeFiles/gtest_main.dir
-/home/longyucheng/catkin_ws/build_isolated/ur_description/CMakeFiles/run_tests.dir
-/home/longyucheng/catkin_ws/build_isolated/ur_description/CMakeFiles/tests.dir
+/home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description/CMakeFiles/_catkin_empty_exported_target.dir
+/home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description/CMakeFiles/clean_test_results.dir
+/home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description/CMakeFiles/download_extra_data.dir
+/home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description/CMakeFiles/doxygen.dir
+/home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description/gtest/CMakeFiles/gtest.dir
+/home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description/gtest/CMakeFiles/gtest_main.dir
+/home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description/CMakeFiles/run_tests.dir
+/home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_description/CMakeFiles/tests.dir

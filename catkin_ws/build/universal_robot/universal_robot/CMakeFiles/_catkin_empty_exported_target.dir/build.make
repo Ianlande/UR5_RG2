@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/longyucheng/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/longyucheng/robot_ur5/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/longyucheng/catkin_ws/build
+CMAKE_BINARY_DIR = /home/longyucheng/robot_ur5/catkin_ws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -56,10 +56,10 @@ universal_robot/universal_robot/CMakeFiles/_catkin_empty_exported_target.dir/bui
 .PHONY : universal_robot/universal_robot/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 universal_robot/universal_robot/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/longyucheng/catkin_ws/build/universal_robot/universal_robot && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/universal_robot && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : universal_robot/universal_robot/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 universal_robot/universal_robot/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/longyucheng/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/catkin_ws/src /home/longyucheng/catkin_ws/src/universal_robot/universal_robot /home/longyucheng/catkin_ws/build /home/longyucheng/catkin_ws/build/universal_robot/universal_robot /home/longyucheng/catkin_ws/build/universal_robot/universal_robot/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/longyucheng/robot_ur5/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/robot_ur5/catkin_ws/src /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/universal_robot /home/longyucheng/robot_ur5/catkin_ws/build /home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/universal_robot /home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/universal_robot/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : universal_robot/universal_robot/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

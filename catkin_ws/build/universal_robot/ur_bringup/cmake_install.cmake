@@ -1,8 +1,8 @@
-# Install script for directory: /home/longyucheng/catkin_ws/src/universal_robot/ur_bringup
+# Install script for directory: /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_bringup
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/longyucheng/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/longyucheng/robot_ur5/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,21 +33,21 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/longyucheng/catkin_ws/build/universal_robot/ur_bringup/catkin_generated/installspace/ur_bringup.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_bringup/catkin_generated/installspace/ur_bringup.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_bringup/cmake" TYPE FILE FILES
-    "/home/longyucheng/catkin_ws/build/universal_robot/ur_bringup/catkin_generated/installspace/ur_bringupConfig.cmake"
-    "/home/longyucheng/catkin_ws/build/universal_robot/ur_bringup/catkin_generated/installspace/ur_bringupConfig-version.cmake"
+    "/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_bringup/catkin_generated/installspace/ur_bringupConfig.cmake"
+    "/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_bringup/catkin_generated/installspace/ur_bringupConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_bringup" TYPE FILE FILES "/home/longyucheng/catkin_ws/src/universal_robot/ur_bringup/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_bringup" TYPE FILE FILES "/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_bringup/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_bringup" TYPE DIRECTORY FILES "/home/longyucheng/catkin_ws/src/universal_robot/ur_bringup/launch")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_bringup" TYPE DIRECTORY FILES "/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_bringup/launch")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

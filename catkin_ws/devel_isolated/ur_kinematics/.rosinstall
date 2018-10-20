@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/setup.sh
+    local-name: /home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/setup.sh

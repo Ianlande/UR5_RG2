@@ -7,5 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/longyucheng/catkin_ws/build"
-export ROS_PACKAGE_PATH="/home/longyucheng/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks"
+export CMAKE_PREFIX_PATH="/home/longyucheng/robot_ur5/catkin_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/longyucheng/robot_ur5/catkin_ws/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/longyucheng/robot_ur5/catkin_ws/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/longyucheng/robot_ur5/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks"

@@ -1,8 +1,8 @@
-prefix=/home/longyucheng/catkin_ws/devel_isolated/ur_bringup
+prefix=/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_bringup
 
 Name: ur_bringup
 Description: Description of ur_bringup
 Version: 1.1.11
 Cflags: 
-Libs: -L/home/longyucheng/catkin_ws/devel_isolated/ur_bringup/lib 
+Libs: -L/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_bringup/lib 
 Requires: 

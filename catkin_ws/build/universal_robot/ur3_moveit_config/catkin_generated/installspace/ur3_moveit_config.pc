@@ -1,8 +1,8 @@
-prefix=/home/longyucheng/catkin_ws/install
+prefix=/home/longyucheng/robot_ur5/catkin_ws/install
 
 Name: ur3_moveit_config
 Description: Description of ur3_moveit_config
 Version: 1.1.11
 Cflags: 
-Libs: -L/home/longyucheng/catkin_ws/install/lib 
+Libs: -L/home/longyucheng/robot_ur5/catkin_ws/install/lib 
 Requires: 

@@ -6,8 +6,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/ur_driver.dir/src/robot_state.cpp.o"
   "CMakeFiles/ur_driver.dir/src/robot_state_RT.cpp.o"
   "CMakeFiles/ur_driver.dir/src/do_output.cpp.o"
-  "/home/longyucheng/catkin_ws/devel_isolated/ur_modern_driver/lib/ur_modern_driver/ur_driver.pdb"
-  "/home/longyucheng/catkin_ws/devel_isolated/ur_modern_driver/lib/ur_modern_driver/ur_driver"
+  "/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_modern_driver/lib/ur_modern_driver/ur_driver.pdb"
+  "/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_modern_driver/lib/ur_modern_driver/ur_driver"
 )
 
 # Per-language clean rules from dependency scanning.

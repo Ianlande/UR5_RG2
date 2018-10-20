@@ -27,7 +27,7 @@ group.set_goal_joint_tolerance(0.001)
 group.set_max_velocity_scaling_factor(0.1)
 group.set_max_acceleration_scaling_factor(0.1)
 
-#动作前准备，做好紧急停机准备
+#动作前准备，预留时间
 print "Prepare to working......"
 rospy.sleep(5)
 
@@ -45,12 +45,14 @@ def movingPosition():
 
     plan1 = group.plan()
     print "The generating end"
+    print "Moving....."
     group.execute(plan1)
+    print "Moving end"
+    rospy.sleep(1)
 
     group_variable_current_values = group.get_current_joint_values()
     print "Current Joint values: ", group_variable_current_values
 
-    rospy.sleep(1)
     group.clear_pose_targets()
     print "working end"
 
@@ -67,14 +69,24 @@ def movingAngle():
 
     plan2 = group.plan()
     print "The generating end"
+    print "Moving....."
     group.execute(plan2)
+    print "Moving end"
+    rospy.sleep(1)
 
     group_variable_current_values = group.get_current_joint_values()
     print "Current Joint values: ", group_variable_current_values
 
-    rospy.sleep(1)
     group.clear_pose_targets()
     print "working end"
 
-#movingPosition()
-movingAngle()
+if __name__ == "__main__":
+    try:
+        #movingPosition()
+        movingAngle()
+
+        moveit_commander.roscpp_shutdown()
+        moveit_commander.os._exit(0)
+        
+    except rospy.ROSInterruptException:
+        pass

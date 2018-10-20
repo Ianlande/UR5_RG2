@@ -1,8 +1,8 @@
-# Install script for directory: /home/longyucheng/catkin_ws/src/robot_else_nodes
+# Install script for directory: /home/longyucheng/robot_ur5/catkin_ws/src/robot_else_nodes
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/longyucheng/catkin_ws/install_isolated")
+  SET(CMAKE_INSTALL_PREFIX "/home/longyucheng/robot_ur5/catkin_ws/install_isolated")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,94 +44,94 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/longyucheng/catkin_ws/install_isolated/_setup_util.py")
+   "/home/longyucheng/robot_ur5/catkin_ws/install_isolated/_setup_util.py")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/longyucheng/catkin_ws/install_isolated" TYPE PROGRAM FILES "/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/_setup_util.py")
+FILE(INSTALL DESTINATION "/home/longyucheng/robot_ur5/catkin_ws/install_isolated" TYPE PROGRAM FILES "/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/_setup_util.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/longyucheng/catkin_ws/install_isolated/env.sh")
+   "/home/longyucheng/robot_ur5/catkin_ws/install_isolated/env.sh")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/longyucheng/catkin_ws/install_isolated" TYPE PROGRAM FILES "/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/env.sh")
+FILE(INSTALL DESTINATION "/home/longyucheng/robot_ur5/catkin_ws/install_isolated" TYPE PROGRAM FILES "/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/env.sh")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/longyucheng/catkin_ws/install_isolated/setup.bash")
+   "/home/longyucheng/robot_ur5/catkin_ws/install_isolated/setup.bash")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/longyucheng/catkin_ws/install_isolated" TYPE FILE FILES "/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/setup.bash")
+FILE(INSTALL DESTINATION "/home/longyucheng/robot_ur5/catkin_ws/install_isolated" TYPE FILE FILES "/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/setup.bash")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/longyucheng/catkin_ws/install_isolated/setup.sh")
+   "/home/longyucheng/robot_ur5/catkin_ws/install_isolated/setup.sh")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/longyucheng/catkin_ws/install_isolated" TYPE FILE FILES "/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/setup.sh")
+FILE(INSTALL DESTINATION "/home/longyucheng/robot_ur5/catkin_ws/install_isolated" TYPE FILE FILES "/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/setup.sh")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/longyucheng/catkin_ws/install_isolated/setup.zsh")
+   "/home/longyucheng/robot_ur5/catkin_ws/install_isolated/setup.zsh")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/longyucheng/catkin_ws/install_isolated" TYPE FILE FILES "/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/setup.zsh")
+FILE(INSTALL DESTINATION "/home/longyucheng/robot_ur5/catkin_ws/install_isolated" TYPE FILE FILES "/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/setup.zsh")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/longyucheng/catkin_ws/install_isolated/.rosinstall")
+   "/home/longyucheng/robot_ur5/catkin_ws/install_isolated/.rosinstall")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/home/longyucheng/catkin_ws/install_isolated" TYPE FILE FILES "/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/.rosinstall")
+FILE(INSTALL DESTINATION "/home/longyucheng/robot_ur5/catkin_ws/install_isolated" TYPE FILE FILES "/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/.rosinstall")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/robot_else_nodes.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/robot_else_nodes.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_else_nodes/cmake" TYPE FILE FILES
-    "/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/robot_else_nodesConfig.cmake"
-    "/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/robot_else_nodesConfig-version.cmake"
+    "/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/robot_else_nodesConfig.cmake"
+    "/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/catkin_generated/installspace/robot_else_nodesConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_else_nodes" TYPE FILE FILES "/home/longyucheng/catkin_ws/src/robot_else_nodes/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_else_nodes" TYPE FILE FILES "/home/longyucheng/robot_ur5/catkin_ws/src/robot_else_nodes/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/gtest/cmake_install.cmake")
+  INCLUDE("/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/gtest/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -141,7 +141,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/longyucheng/catkin_ws/build_isolated/robot_else_nodes/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/longyucheng/robot_ur5/catkin_ws/build_isolated/robot_else_nodes/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

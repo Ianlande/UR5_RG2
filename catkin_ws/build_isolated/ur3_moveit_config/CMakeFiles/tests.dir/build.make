@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/longyucheng/catkin_ws/src/universal_robot/ur3_moveit_config
+CMAKE_SOURCE_DIR = /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur3_moveit_config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/longyucheng/catkin_ws/build_isolated/ur3_moveit_config
+CMAKE_BINARY_DIR = /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur3_moveit_config
 
 # Utility rule file for tests.
 
@@ -60,6 +60,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/longyucheng/catkin_ws/build_isolated/ur3_moveit_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/catkin_ws/src/universal_robot/ur3_moveit_config /home/longyucheng/catkin_ws/src/universal_robot/ur3_moveit_config /home/longyucheng/catkin_ws/build_isolated/ur3_moveit_config /home/longyucheng/catkin_ws/build_isolated/ur3_moveit_config /home/longyucheng/catkin_ws/build_isolated/ur3_moveit_config/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur3_moveit_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur3_moveit_config /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur3_moveit_config /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur3_moveit_config /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur3_moveit_config /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur3_moveit_config/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

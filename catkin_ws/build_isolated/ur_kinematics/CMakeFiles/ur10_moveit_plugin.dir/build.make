@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics
+CMAKE_SOURCE_DIR = /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/longyucheng/catkin_ws/build_isolated/ur_kinematics
+CMAKE_BINARY_DIR = /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_kinematics
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ur10_moveit_plugin.dir/depend.make
@@ -50,18 +50,18 @@ include CMakeFiles/ur10_moveit_plugin.dir/progress.make
 include CMakeFiles/ur10_moveit_plugin.dir/flags.make
 
 CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: CMakeFiles/ur10_moveit_plugin.dir/flags.make
-CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o: /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_kinematics/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o -c /home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o -c /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp
 
 CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp > CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp > CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.i
 
 CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp -o CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics/src/ur_moveit_plugin.cpp -o CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.s
 
 CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o.requires:
 .PHONY : CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o.requires
@@ -79,100 +79,100 @@ ur10_moveit_plugin_OBJECTS = \
 # External object files for target ur10_moveit_plugin
 ur10_moveit_plugin_EXTERNAL_OBJECTS =
 
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: CMakeFiles/ur10_moveit_plugin.dir/build.make
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_rdf_loader.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_kinematics_plugin_loader.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_robot_model_loader.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_constraint_sampler_manager_loader.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_planning_pipeline.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_trajectory_execution_manager.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_plan_execution.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_planning_scene_monitor.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_collision_plugin_loader.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_lazy_free_space_updater.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_point_containment_filter.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_occupancy_map_monitor.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_pointcloud_octomap_updater_core.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_semantic_world.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_exceptions.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_background_processing.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_kinematics_base.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_robot_model.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_transforms.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_robot_state.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_robot_trajectory.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_planning_interface.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_collision_detection.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_collision_detection_fcl.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_kinematic_constraints.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_planning_scene.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_constraint_samplers.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_planning_request_adapter.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_profiler.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_trajectory_processing.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_distance_field.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_kinematics_metrics.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_dynamics_solver.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libeigen_conversions.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libgeometric_shapes.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/liboctomap.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/liboctomath.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libkdl_parser.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/liburdf.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librosconsole_bridge.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librandom_numbers.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libsrdfdom.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libimage_transport.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libclass_loader.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/libPocoFoundation.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libroslib.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librospack.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libtf_conversions.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libkdl_conversions.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/liborocos-kdl.so.1.3.0
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libtf.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libtf2_ros.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libactionlib.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmessage_filters.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libroscpp.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libtf2.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librosconsole.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/liblog4cxx.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librostime.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libcpp_common.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_kin.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: CMakeFiles/ur10_moveit_plugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so"
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: CMakeFiles/ur10_moveit_plugin.dir/build.make
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_rdf_loader.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_kinematics_plugin_loader.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_robot_model_loader.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_constraint_sampler_manager_loader.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_planning_pipeline.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_trajectory_execution_manager.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_plan_execution.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_planning_scene_monitor.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_collision_plugin_loader.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_lazy_free_space_updater.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_point_containment_filter.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_occupancy_map_monitor.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_pointcloud_octomap_updater_core.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_semantic_world.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_exceptions.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_background_processing.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_kinematics_base.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_robot_model.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_transforms.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_robot_state.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_robot_trajectory.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_planning_interface.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_collision_detection.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_collision_detection_fcl.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_kinematic_constraints.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_planning_scene.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_constraint_samplers.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_planning_request_adapter.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_profiler.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_trajectory_processing.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_distance_field.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_kinematics_metrics.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_dynamics_solver.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libeigen_conversions.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libgeometric_shapes.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/liboctomap.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/liboctomath.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libkdl_parser.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/liburdf.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librosconsole_bridge.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librandom_numbers.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libsrdfdom.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libimage_transport.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libclass_loader.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/libPocoFoundation.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libroslib.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librospack.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libtf_conversions.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libkdl_conversions.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/liborocos-kdl.so.1.3.0
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libtf.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libtf2_ros.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libactionlib.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libmessage_filters.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libroscpp.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libtf2.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librosconsole.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/liblog4cxx.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/librostime.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /opt/ros/indigo/lib/libcpp_common.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_kin.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so: CMakeFiles/ur10_moveit_plugin.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ur10_moveit_plugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/ur10_moveit_plugin.dir/build: /home/longyucheng/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so
+CMakeFiles/ur10_moveit_plugin.dir/build: /home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_kinematics/lib/libur10_moveit_plugin.so
 .PHONY : CMakeFiles/ur10_moveit_plugin.dir/build
 
 CMakeFiles/ur10_moveit_plugin.dir/requires: CMakeFiles/ur10_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o.requires
@@ -183,6 +183,6 @@ CMakeFiles/ur10_moveit_plugin.dir/clean:
 .PHONY : CMakeFiles/ur10_moveit_plugin.dir/clean
 
 CMakeFiles/ur10_moveit_plugin.dir/depend:
-	cd /home/longyucheng/catkin_ws/build_isolated/ur_kinematics && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics /home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics /home/longyucheng/catkin_ws/build_isolated/ur_kinematics /home/longyucheng/catkin_ws/build_isolated/ur_kinematics /home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_kinematics && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_kinematics /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_kinematics /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ur10_moveit_plugin.dir/depend
 

@@ -1,8 +1,8 @@
-prefix=/home/longyucheng/catkin_ws/devel_isolated/robot_else_nodes
+prefix=/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/robot_else_nodes
 
 Name: robot_else_nodes
 Description: Description of robot_else_nodes
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/longyucheng/catkin_ws/devel_isolated/robot_else_nodes/lib 
+Libs: -L/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/robot_else_nodes/lib 
 Requires: 

@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/ur_hardware_interface.dir/src/ur_hardware_interface.cpp.o"
-  "/home/longyucheng/catkin_ws/devel_isolated/ur_modern_driver/lib/libur_hardware_interface.pdb"
-  "/home/longyucheng/catkin_ws/devel_isolated/ur_modern_driver/lib/libur_hardware_interface.so"
+  "/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_modern_driver/lib/libur_hardware_interface.pdb"
+  "/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_modern_driver/lib/libur_hardware_interface.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics
+CMAKE_SOURCE_DIR = /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/longyucheng/catkin_ws/build_isolated/ur_kinematics
+CMAKE_BINARY_DIR = /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_kinematics
 
 # Utility rule file for run_tests.
 
@@ -60,6 +60,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/longyucheng/catkin_ws/build_isolated/ur_kinematics && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics /home/longyucheng/catkin_ws/src/universal_robot/ur_kinematics /home/longyucheng/catkin_ws/build_isolated/ur_kinematics /home/longyucheng/catkin_ws/build_isolated/ur_kinematics /home/longyucheng/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_kinematics && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics /home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_kinematics /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_kinematics /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_kinematics/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 
