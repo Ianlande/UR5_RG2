@@ -1,0 +1,8 @@
+prefix=/home/longyucheng/robot_ur5/catkin_ws/install
+
+Name: freenect_camera
+Description: Description of freenect_camera
+Version: 0.4.2
+Cflags: -I/home/longyucheng/robot_ur5/catkin_ws/install/include
+Libs: -L/home/longyucheng/robot_ur5/catkin_ws/install/lib 
+Requires: camera_info_manager diagnostic_updater dynamic_reconfigure image_transport nodelet roscpp sensor_msgs

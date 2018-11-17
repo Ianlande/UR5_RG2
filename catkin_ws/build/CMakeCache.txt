@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//The threading library used by boost-thread
+BOOST_THREAD_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpthread.so
+
 //Build shared libraries (DLLs).
 BUILD_SHARED_LIBS:BOOL=ON
 
@@ -31,6 +34,12 @@ Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
 
 //Boost system library (release)
 Boost_SYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
+
+//Boost thread library (debug)
+Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
+
+//Boost thread library (release)
+Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
 
 //List of ';' separated packages to exclude
 CATKIN_BLACKLIST_PACKAGES:STRING=
@@ -227,6 +236,9 @@ GTEST_MAIN_LIBRARY:FILEPATH=GTEST_MAIN_LIBRARY-NOTFOUND
 //Path to a library.
 GTEST_MAIN_LIBRARY_DEBUG:FILEPATH=GTEST_MAIN_LIBRARY_DEBUG-NOTFOUND
 
+//Path to a library.
+LIBFREENECT_LIBRARY:FILEPATH=LIBFREENECT_LIBRARY-NOTFOUND
+
 //lsb_release executable was found
 LSB_FOUND:BOOL=TRUE
 
@@ -235,6 +247,9 @@ LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 
 //Path to a program.
 NOSETESTS:FILEPATH=/usr/bin/nosetests-2.7
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
@@ -272,6 +287,18 @@ actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/indigo/share/actionlib_msgs/cmake
 
+//The directory containing a CMake configuration file for bond.
+bond_DIR:PATH=/opt/ros/indigo/share/bond/cmake
+
+//The directory containing a CMake configuration file for bondcpp.
+bondcpp_DIR:PATH=/opt/ros/indigo/share/bondcpp/cmake
+
+//The directory containing a CMake configuration file for camera_calibration_parsers.
+camera_calibration_parsers_DIR:PATH=/opt/ros/indigo/share/camera_calibration_parsers/cmake
+
+//The directory containing a CMake configuration file for camera_info_manager.
+camera_info_manager_DIR:PATH=/opt/ros/indigo/share/camera_info_manager/cmake
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 
@@ -293,11 +320,41 @@ controller_manager_msgs_DIR:PATH=/opt/ros/indigo/share/controller_manager_msgs/c
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 
+//The directory containing a CMake configuration file for diagnostic_msgs.
+diagnostic_msgs_DIR:PATH=/opt/ros/indigo/share/diagnostic_msgs/cmake
+
+//The directory containing a CMake configuration file for diagnostic_updater.
+diagnostic_updater_DIR:PATH=/opt/ros/indigo/share/diagnostic_updater/cmake
+
+//The directory containing a CMake configuration file for dynamic_reconfigure.
+dynamic_reconfigure_DIR:PATH=/opt/ros/indigo/share/dynamic_reconfigure/cmake
+
 //The directory containing a CMake configuration file for eigen_conversions.
 eigen_conversions_DIR:PATH=/opt/ros/indigo/share/eigen_conversions/cmake
 
 //The directory containing a CMake configuration file for eigen_stl_containers.
 eigen_stl_containers_DIR:PATH=/opt/ros/indigo/share/eigen_stl_containers/cmake
+
+//Value Computed by CMake
+freenect_camera_BINARY_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/build/freenect_stack/freenect_camera
+
+//Value Computed by CMake
+freenect_camera_SOURCE_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/src/freenect_stack/freenect_camera
+
+//Value Computed by CMake
+freenect_launch_BINARY_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/build/freenect_stack/freenect_launch
+
+//Value Computed by CMake
+freenect_launch_SOURCE_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/src/freenect_stack/freenect_launch
+
+//Dependencies for the target
+freenect_nodelet_LIB_DEPENDS:STATIC=general;/opt/ros/indigo/lib/libcamera_info_manager.so;general;/opt/ros/indigo/lib/libcamera_calibration_parsers.so;general;/opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so;general;/opt/ros/indigo/lib/libimage_transport.so;general;/opt/ros/indigo/lib/libmessage_filters.so;general;/opt/ros/indigo/lib/libnodeletlib.so;general;/opt/ros/indigo/lib/libbondcpp.so;general;/usr/lib/x86_64-linux-gnu/libuuid.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;LIBFREENECT_LIBRARY-NOTFOUND;general;log4cxx;
+
+//Value Computed by CMake
+freenect_stack_BINARY_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/build/freenect_stack/freenect_stack
+
+//Value Computed by CMake
+freenect_stack_SOURCE_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/src/freenect_stack/freenect_stack
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/indigo/share/gencpp/cmake
@@ -381,6 +438,9 @@ moveit_ros_perception_DIR:PATH=/opt/ros/indigo/share/moveit_ros_perception/cmake
 //The directory containing a CMake configuration file for moveit_ros_planning.
 moveit_ros_planning_DIR:PATH=/opt/ros/indigo/share/moveit_ros_planning/cmake
 
+//The directory containing a CMake configuration file for nodelet.
+nodelet_DIR:PATH=/opt/ros/indigo/share/nodelet/cmake
+
 //The directory containing a CMake configuration file for object_recognition_msgs.
 object_recognition_msgs_DIR:PATH=/opt/ros/indigo/share/object_recognition_msgs/cmake
 
@@ -440,6 +500,9 @@ sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for shape_msgs.
 shape_msgs_DIR:PATH=/opt/ros/indigo/share/shape_msgs/cmake
+
+//The directory containing a CMake configuration file for smclib.
+smclib_DIR:PATH=/opt/ros/indigo/share/smclib/cmake
 
 //The directory containing a CMake configuration file for srdfdom.
 srdfdom_DIR:PATH=/opt/ros/indigo/share/srdfdom/cmake
@@ -579,6 +642,10 @@ Boost_LIBRARY_DIR-ADVANCED:INTERNAL=1
 Boost_SYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SYSTEM_LIBRARY_RELEASE
 Boost_SYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_THREAD_LIBRARY_DEBUG
+Boost_THREAD_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_THREAD_LIBRARY_RELEASE
+Boost_THREAD_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/longyucheng/robot_ur5/catkin_ws/build/catkin_generated/env_cached.sh
 CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/longyucheng/robot_ur5/catkin_ws/build/test_results
@@ -676,7 +743,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=13
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=16
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -721,6 +788,8 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 COMPILER_SUPPORTS_CXX0X:INTERNAL=1
 //Test COMPILER_SUPPORTS_CXX11
 COMPILER_SUPPORTS_CXX11:INTERNAL=1
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.26()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.6()]
 //Details about finding Threads
@@ -740,6 +809,66 @@ GTEST_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 GTEST_MAIN_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GTEST_MAIN_LIBRARY_DEBUG
 GTEST_MAIN_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+LIBFREENECT_CFLAGS:INTERNAL=
+LIBFREENECT_CFLAGS_I:INTERNAL=
+LIBFREENECT_CFLAGS_OTHER:INTERNAL=
+LIBFREENECT_FOUND:INTERNAL=
+LIBFREENECT_INCLUDEDIR:INTERNAL=
+LIBFREENECT_LIBDIR:INTERNAL=
+LIBFREENECT_LIBS:INTERNAL=
+LIBFREENECT_LIBS_L:INTERNAL=
+LIBFREENECT_LIBS_OTHER:INTERNAL=
+LIBFREENECT_LIBS_PATHS:INTERNAL=
+LIBFREENECT_PREFIX:INTERNAL=
+LIBFREENECT_STATIC_CFLAGS:INTERNAL=
+LIBFREENECT_STATIC_CFLAGS_I:INTERNAL=
+LIBFREENECT_STATIC_CFLAGS_OTHER:INTERNAL=
+LIBFREENECT_STATIC_LIBDIR:INTERNAL=
+LIBFREENECT_STATIC_LIBS:INTERNAL=
+LIBFREENECT_STATIC_LIBS_L:INTERNAL=
+LIBFREENECT_STATIC_LIBS_OTHER:INTERNAL=
+LIBFREENECT_STATIC_LIBS_PATHS:INTERNAL=
+LIBFREENECT_VERSION:INTERNAL=
+LIBFREENECT_libfreenect_INCLUDEDIR:INTERNAL=
+LIBFREENECT_libfreenect_LIBDIR:INTERNAL=
+LIBFREENECT_libfreenect_PREFIX:INTERNAL=
+LIBFREENECT_libfreenect_VERSION:INTERNAL=
+LOG4CXX_CFLAGS:INTERNAL=
+LOG4CXX_CFLAGS_I:INTERNAL=
+LOG4CXX_CFLAGS_OTHER:INTERNAL=
+LOG4CXX_FOUND:INTERNAL=1
+LOG4CXX_INCLUDEDIR:INTERNAL=/usr/include
+LOG4CXX_INCLUDE_DIRS:INTERNAL=
+LOG4CXX_LDFLAGS:INTERNAL=-llog4cxx
+LOG4CXX_LDFLAGS_OTHER:INTERNAL=
+LOG4CXX_LIBDIR:INTERNAL=/usr/lib
+LOG4CXX_LIBRARIES:INTERNAL=log4cxx
+LOG4CXX_LIBRARY_DIRS:INTERNAL=
+LOG4CXX_LIBS:INTERNAL=
+LOG4CXX_LIBS_L:INTERNAL=
+LOG4CXX_LIBS_OTHER:INTERNAL=
+LOG4CXX_LIBS_PATHS:INTERNAL=
+LOG4CXX_PREFIX:INTERNAL=/usr
+LOG4CXX_STATIC_CFLAGS:INTERNAL=
+LOG4CXX_STATIC_CFLAGS_I:INTERNAL=
+LOG4CXX_STATIC_CFLAGS_OTHER:INTERNAL=
+LOG4CXX_STATIC_INCLUDE_DIRS:INTERNAL=
+LOG4CXX_STATIC_LDFLAGS:INTERNAL=-llog4cxx
+LOG4CXX_STATIC_LDFLAGS_OTHER:INTERNAL=
+LOG4CXX_STATIC_LIBDIR:INTERNAL=
+LOG4CXX_STATIC_LIBRARIES:INTERNAL=log4cxx
+LOG4CXX_STATIC_LIBRARY_DIRS:INTERNAL=
+LOG4CXX_STATIC_LIBS:INTERNAL=
+LOG4CXX_STATIC_LIBS_L:INTERNAL=
+LOG4CXX_STATIC_LIBS_OTHER:INTERNAL=
+LOG4CXX_STATIC_LIBS_PATHS:INTERNAL=
+LOG4CXX_VERSION:INTERNAL=0.10.0
+LOG4CXX_liblog4cxx_INCLUDEDIR:INTERNAL=
+LOG4CXX_liblog4cxx_LIBDIR:INTERNAL=
+LOG4CXX_liblog4cxx_PREFIX:INTERNAL=
+LOG4CXX_liblog4cxx_VERSION:INTERNAL=
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //This needs to be in PYTHONPATH when 'setup.py install' is called.
@@ -747,11 +876,13 @@ PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 // it will install things.
 PYTHON_INSTALL_DIR:INTERNAL=lib/python2.7/dist-packages
 //Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=system
+_Boost_COMPONENTS_SEARCHED:INTERNAL=system;thread
 //Last used Boost_INCLUDE_DIR value.
 _Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
 //Last used Boost_LIBRARY_DIR value.
 _Boost_LIBRARY_DIR_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
 //Last used Boost_USE_MULTITHREADED value.
 _Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
+__pkg_config_checked_LIBFREENECT:INTERNAL=1
+__pkg_config_checked_LOG4CXX:INTERNAL=1
 

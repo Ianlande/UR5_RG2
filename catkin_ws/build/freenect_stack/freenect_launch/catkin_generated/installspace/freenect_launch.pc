@@ -1,0 +1,8 @@
+prefix=/home/longyucheng/robot_ur5/catkin_ws/install
+
+Name: freenect_launch
+Description: Description of freenect_launch
+Version: 0.4.2
+Cflags: 
+Libs: -L/home/longyucheng/robot_ur5/catkin_ws/install/lib 
+Requires: 
