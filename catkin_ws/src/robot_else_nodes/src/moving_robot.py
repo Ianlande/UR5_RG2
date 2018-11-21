@@ -41,12 +41,13 @@ group.allow_replanning(True)
 group.set_planning_time(5)
 
 #动作前准备，预留时间
-print "Prepare to working......"
-rospy.sleep(5)
+print "========== Prepare to working =========="
+rospy.sleep(2)
 
 #添加障碍物
 def add_object_base():
-    print "add RobotBase1"
+    print "======= Press 'Enter' to add RobotBase ======="
+    raw_input()
     RobotBase1_id = 'RobotBase1'
     scene.remove_world_object(RobotBase1_id)
     group_reference_frame = group.get_planning_frame()
@@ -63,10 +64,13 @@ def add_object_base():
 
     setColor(RobotBase1_id, 0.8, 0.8, 0.8, 1.0)
     sentColors()
+
+    print "======= RobotBase had been added ======="
     rospy.sleep(1)
 
 def add_object_camera():
-    print "add CameraBase1"
+    print "======= Press 'Enter' to add CameraBase ======="
+    raw_input()
     CameraBase1_id = 'CameraBase1'
     scene.remove_world_object(CameraBase1_id)
     group_reference_frame = group.get_planning_frame()
@@ -83,6 +87,8 @@ def add_object_camera():
 
     setColor(CameraBase1_id, 0.8, 0.8, 0.8, 1.0)
     sentColors()
+
+    print "======= CameraBase had been added ======="
     rospy.sleep(1)
 
 def setColor(name, r, g, b, a=0.9):
@@ -103,8 +109,9 @@ def sentColors():
 
 #位置规划
 def movingPosition():
-    print "Generating plan 1"
     group.clear_pose_targets()
+    print "======= Press 'Enter' to Generating plan ======="
+    raw_input()
 
     pose_target = geometry_msgs.msg.Pose()
     pose_target.orientation.w = 1.0
@@ -114,22 +121,25 @@ def movingPosition():
     group.set_pose_target(pose_target)
 
     plan1 = group.plan()
-    print "The generating end"
-    print "Moving....."
+    print "========== The generating end =========="
+
+    print "======= Press 'Enter' to moving ======="
+    raw_input()
     group.execute(plan1)
-    print "Moving end"
+    print "========== Moving end =========="
     rospy.sleep(1)
 
     group_variable_current_values = group.get_current_joint_values()
     print "Current Joint values: ", group_variable_current_values
 
     group.clear_pose_targets()
-    print "working end"
+    print "========== Working end =========="
 
 #角度规划
 def movingAngle():
-    print "Generating plan 2"
     group.clear_pose_targets()
+    print "======= Press 'Enter' to Generating plan ======="
+    raw_input()
 
     group_variable_values = group.get_current_joint_values()
     print "Original Joint values: ", group_variable_values
@@ -138,24 +148,26 @@ def movingAngle():
     group.set_joint_value_target(group_variable_values)
 
     plan2 = group.plan()
-    print "The generating end"
-    print "Moving....."
+    print "========== The generating end =========="
+
+    print "======= Press 'Enter' to moving ======="
+    raw_input()
     group.execute(plan2)
-    print "Moving end"
+    print "========== Moving end =========="
     rospy.sleep(1)
 
     group_variable_current_values = group.get_current_joint_values()
     print "Current Joint values: ", group_variable_current_values
 
     group.clear_pose_targets()
-    print "working end"
+    print "========== Working end =========="
 
 if __name__ == "__main__":
     try:
-        add_object_base()
-        add_object_camera()
+        #add_object_base()
+        #add_object_camera()
         #movingPosition()
-        #movingAngle()
+        movingAngle()
 
         moveit_commander.roscpp_shutdown()
         moveit_commander.os._exit(0)
