@@ -164,10 +164,10 @@ def movingAngle():
 
 if __name__ == "__main__":
     try:
-        #add_object_base()
-        #add_object_camera()
+        add_object_base()
+        add_object_camera()
         #movingPosition()
-        movingAngle()
+        #movingAngle()
 
         moveit_commander.roscpp_shutdown()
         moveit_commander.os._exit(0)

@@ -14,7 +14,3 @@ roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
 roslaunch ur5_moveit_config moveit_rviz.launch config:=true
 
 在Rviz中拖动机械臂到某个位置，并选择“planned and excute”就可以观察到机械臂在Rviz和Gazebo中同时运动
-
-或者：
-source ./devel/setup.bash
-roslaunch ur5_moveit_config demo.launch
