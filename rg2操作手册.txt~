@@ -1,0 +1,8 @@
+roslaunch ur_control ur10_control.launch robot_ip:=192.168.1.102
+
+rosrun ur_control rg2_server_node.py
+
+检测是否夹到东西
+rosservice call /rg2_gripper/grip_detect
+
+
