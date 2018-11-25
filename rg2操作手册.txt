@@ -1,5 +1,15 @@
-roslaunch ur_control ur5_control.launch [robot_ip:=192.168.1.102]
+source ./devel/setup.bash
 
+1.
+roslaunch ur_modern_driver ur5_bringup.launch [robot_ip:=192.168.1.102]
+
+2.
+roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch limited:=true
+
+3.
+roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+
+4.
 rosrun ur_control rg2_server_node.py
 
 检测是否夹到东西
