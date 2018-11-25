@@ -12,7 +12,7 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in "/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur5_moveit_config;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur3_moveit_config;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur10_moveit_config;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_description;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_bringup;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/universal_robot;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/robot_else_nodes;/opt/ros/indigo".split(';'):
+    for workspace in "/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur5_moveit_config;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur3_moveit_config;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur10_moveit_config;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_description;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_control;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_bringup;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/universal_robot;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/robot_else_nodes;/opt/ros/indigo".split(';'):
         python_path = os.path.join(workspace, 'lib/python2.7/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)

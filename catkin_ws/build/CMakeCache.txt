@@ -412,7 +412,7 @@ kdl_conversions_DIR:PATH=/opt/ros/indigo/share/kdl_conversions/cmake
 kdl_parser_DIR:PATH=/opt/ros/indigo/share/kdl_parser/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/indigo/lib/libtf2.so
+lib:FILEPATH=/opt/ros/indigo/lib/libxmlrpcpp.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake
@@ -580,6 +580,12 @@ ur_bringup_BINARY_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/build/univers
 ur_bringup_SOURCE_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_bringup
 
 //Value Computed by CMake
+ur_control_BINARY_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/build/ur_control
+
+//Value Computed by CMake
+ur_control_SOURCE_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/src/ur_control
+
+//Value Computed by CMake
 ur_description_BINARY_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_description
 
 //Value Computed by CMake
@@ -743,7 +749,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=16
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

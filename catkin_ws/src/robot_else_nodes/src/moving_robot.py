@@ -110,17 +110,21 @@ def sentColors():
 #位置规划
 def movingPosition():
     group.clear_pose_targets()
-    print "======= Press 'Enter' to working ======="
+    print "======= Press 'Enter' to Generating plan ======="
     raw_input()
 
     pose_target = geometry_msgs.msg.Pose()
     pose_target.orientation.w = 1.0
-    pose_target.position.x = 0.5
-    pose_target.position.y = 0
-    pose_target.position.z = 0.5
+    pose_target.position.x = 0.6
+    pose_target.position.y = 0.2
+    pose_target.position.z = 0.6
     group.set_pose_target(pose_target)
 
     plan1 = group.plan()
+    print "========== The generating end =========="
+
+    print "======= Press 'Enter' to moving ======="
+    raw_input()
     group.execute(plan1)
     print "========== Moving end =========="
     rospy.sleep(1)

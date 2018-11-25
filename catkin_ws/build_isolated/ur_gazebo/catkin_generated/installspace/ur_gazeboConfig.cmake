@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/longyucheng/robot_ur5/catkin_ws/install_isolated/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur5_moveit_config/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur3_moveit_config/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur10_moveit_config/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_description/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_bringup/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/universal_robot/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/robot_else_nodes/lib;/opt/ros/indigo/lib)
+    foreach(path /home/longyucheng/robot_ur5/catkin_ws/install_isolated/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur5_moveit_config/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur3_moveit_config/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur10_moveit_config/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_description/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_control/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/ur_bringup/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/universal_robot/lib;/home/longyucheng/robot_ur5/catkin_ws/devel_isolated/robot_else_nodes/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

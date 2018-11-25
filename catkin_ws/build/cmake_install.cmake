@@ -128,6 +128,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur3_moveit_config/cmake_install.cmake")
   INCLUDE("/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur5_moveit_config/cmake_install.cmake")
   INCLUDE("/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_kinematics/cmake_install.cmake")
+  INCLUDE("/home/longyucheng/robot_ur5/catkin_ws/build/ur_control/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

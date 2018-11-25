@@ -1,0 +1,8 @@
+prefix=/home/longyucheng/robot_ur5/catkin_ws/devel
+
+Name: ur_control
+Description: Description of ur_control
+Version: 0.0.0
+Cflags: -I/home/longyucheng/robot_ur5/catkin_ws/devel/include
+Libs: -L/home/longyucheng/robot_ur5/catkin_ws/devel/lib 
+Requires: roscpp std_msgs message_runtime

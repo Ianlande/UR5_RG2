@@ -1,0 +1,53 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_control/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2201768637/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2201768637.dir/build.make CMakeFiles/cmTryCompileExec2201768637.dir/build
+make[1]: 正在进入目录 `/home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_control/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_control/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2201768637.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2201768637.dir/CheckSymbolExists.c.o   -c /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_control/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2201768637
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2201768637.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2201768637.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2201768637 -rdynamic 
+CMakeFiles/cmTryCompileExec2201768637.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2201768637] 错误 1
+make[1]:正在离开目录 `/home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_control/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2201768637/fast] 错误 2
+
+File /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_control/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_control/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4030913494/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4030913494.dir/build.make CMakeFiles/cmTryCompileExec4030913494.dir/build
+make[1]: 正在进入目录 `/home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_control/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_control/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4030913494.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4030913494.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4030913494
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4030913494.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4030913494.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4030913494 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/longyucheng/robot_ur5/catkin_ws/build_isolated/ur_control/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec4030913494] 错误 1
+make: *** [cmTryCompileExec4030913494/fast] 错误 2
+
+
