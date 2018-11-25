@@ -17,8 +17,3 @@ UR5本体实物通信测试：
 
 如果一切正常， 你就会看到RVIZ中的UR5机械臂和实物的状态是一致的，拖动UR5机械臂实物，在RVIZ里的机械臂也会跟着运动。此时，你可以在RVIZ中用鼠标拖动机械臂到达目标位置，在planing下点击plan,如果路径规划成功即可点击execute,你就会看到UR5实物也会跟着运动到目标点。
 到此，UR5本体在ROS系统上的通信和控制都建立成功了。
-
-或者：
-source ./devel/setup.bash
-roslaunch ur_modern_driver ur5_bringup.launch robot_ip:=192.168.1.102
-roslaunch ur5_moveit_config demo.launch
