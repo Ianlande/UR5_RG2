@@ -607,10 +607,10 @@ ur_kinematics_BINARY_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/build/univ
 ur_kinematics_SOURCE_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_kinematics
 
 //Value Computed by CMake
-ur_modern_driver_BINARY_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_modern_driver/ur_modern_driver-master
+ur_modern_driver_BINARY_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_modern_driver
 
 //Value Computed by CMake
-ur_modern_driver_SOURCE_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_modern_driver/ur_modern_driver-master
+ur_modern_driver_SOURCE_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/src/universal_robot/ur_modern_driver
 
 //Value Computed by CMake
 ur_msgs_BINARY_DIR:STATIC=/home/longyucheng/robot_ur5/catkin_ws/build/universal_robot/ur_msgs
