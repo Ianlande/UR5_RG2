@@ -13,14 +13,14 @@
 #### 命令说明
 > * 第一行：启动仿真程序  
 > * 第二行：执行完命令后，如果最后看到绿色字体`All is well! Everyone is happy! You can start planning now!`，就代表成功了  
-> * 第三行：使用RVIZ控制仿真机械臂，在RVIZ中拖动机械臂到某个位置，并选择`planned and excute`就可以观察到机械臂在`RVIZ`和`Gazebo`中同时运动，也可以修改`OMPL`或者`Planning`中的`Option`修改运行速度等参数  
+> * 第三行：使用RVIZ控制仿真机械臂，在RVIZ中拖动机械臂到某个位置，并选择`planned and excute`就可以观察到机械臂在`RVIZ`和`Gazebo`中同时运动，也可以修改`OMPL`或者`Planning`中的`Option`修改移动速度等参数  
 #### 注意
 > * 所有命令的执行应该在目录`catkin_ws`下， 参考命令`cd ~/catkin_ws`  
 > * 在执行完一个终端命令后，应该打开一个新终端，再执行下一条新终端命令  
 > * 如果有必要，使用命令`source ./devel/setup.bash`  
-> * 上面的命令不能使UR5实物与RVIZ通信联调，只能在RVIZ中仿真，不能控制实体UR5  
+> * 上诉命令不能使UR5实物与RVIZ通信联调，只能在RVIZ中仿真，不能控制实体UR5  
 > * RVIZ中暂时不能控制RG2，因为包中没有RG2的RVIZ模型  
-> * 如果上诉命令过于冗长，可以使用`方法 2`的命令，只有一行，或者可以自己创建`.launch`文件实现上诉功能  
+> * 如果上诉命令过于冗长，可以使用`方法 2`的命令，只有一行，或者可以自行创建`.launch`文件实现上诉功能  
 ### 方法 2 
 ```
     roslaunch ur5_moveit_config demo.launch
