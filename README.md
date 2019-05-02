@@ -41,7 +41,8 @@ if all goes well, you'll see the state of ur5 mechanical arm in rviz is consiste
   # detects whether an object is gripped by rg2:  
   rosservice call /rg2_gripper/grip_detect  
   # grip object: you can modify the float number, the number represent the rg2's open degree, is anumber 0.0~110.0  
-  rosservice call /rg2_gripper/control_width "target_width:  data:0.0"
+  rosservice call /rg2_gripper/control_width "target_width:  
+    data:0.0"
 ```
 #### Interpretation and explanation：
 if you want to control rg2, you should connect real ur5 in laboratory with virtual ur5 in rviz first
