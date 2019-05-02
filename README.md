@@ -1,4 +1,10 @@
 # UR5_RG2
+已经配置好的包，可以实现RVIZ仿真、UR5实物与RVIZ通信联调、控制RG2
+------
+
+
+
+# UR5_RG2
 a package had been configured used to control ur5 and rg2
 ## rviz simulation：
 ### usage 1:
