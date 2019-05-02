@@ -11,8 +11,8 @@ ur5_scenes ：RVIZ中的`.scene`文件，用于向RVIZ仿真环境中添加物�
 
 ## DEMO
 `catkin_ws\src\robot_else_nodes\src`路径下的`.py`文件
-`get_robot_info.py`：获取关节信息
-`moving_robot.py`：移动关节机械臂
+`get_robot_info.py`：获取关节信息  
+`moving_robot.py`：移动关节机械臂  
 
 ------
 
