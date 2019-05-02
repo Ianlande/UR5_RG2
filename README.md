@@ -3,6 +3,17 @@
 
 ------
 
+## 文件
+catkin_ws ： 主文件，`_isolated`为后缀的文件表示本地发布的项目  
+ur5_scenes ：RVIZ中的`.scene`文件，用于向RVIZ仿真环境中添加物体  
+
+------
+
+## DEMO
+
+
+------
+
 ## RVIZ仿真
 ### 方法 1 
 ```
@@ -41,7 +52,7 @@
 -----
 
 ## 控制RG2
-由于RVIZ仿真不能控制rg2，所以控制RG2需要先控制UR5实物
+由于RVIZ仿真不能控制RG2，所以控制RG2需要先控制UR5实物
 ### 在完成UR5实物与RVIZ通信联调的基础上执行以下命令
 ```
   rosrun ur_control rg2_server_node.py  
