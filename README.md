@@ -68,8 +68,8 @@ rosservice call /rg2_gripper/control_width "target_width:
 `catkin_ws\src\robot_else_nodes\src`路径下的`.py`文件  
 `get_robot_info.py`：获取机械臂与关节信息  
 `moving_robot.py`：控制机械臂的demo 
-## `moving_robot.py`说明
-### `main`函数
+### `moving_robot.py`说明
+#### `main`函数
 ```python
 def main():
     try:
@@ -85,21 +85,21 @@ def main():
         R.movingPosition()      # 控制机械臂末端移动到机械臂坐标下的某个坐标点
         R.movingAngle()         # 控制机械臂各个关节的移动角度
 ```
-### `movingPosition`函数
+#### `movingPosition`函数
 ```python
     pose_target.orientation.w = 1.0   # 方向
     pose_target.position.x = 0.6      # x坐标
     pose_target.position.y = 0.2      # y坐标
     pose_target.position.z = 0.6      # z坐标
 ```
-### `movingAngle`函数
+#### `movingAngle`函数
 ```python
     print "Original Joint values: ", group_variable_values
     # group_variable_values[num]=angle，num从0至5分别为底座至末端的关节，angle顺时针为正
     # group_variable_values[1]表示从底座数起的第二个关节逆时针转动1.6
     group_variable_values[1] = -1.6
 ```
-### 控制RG2闭合
+#### 控制RG2闭合
 参考`control.py`
 ```
     self.request.target_width.data=0.0
