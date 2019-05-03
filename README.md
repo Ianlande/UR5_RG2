@@ -87,16 +87,15 @@ def main():
 ```
 ### `movingPosition`函数
 ```python
-        pose_target.orientation.w = 1.0   # 方向
-        pose_target.position.x = 0.6      # x坐标
-        pose_target.position.y = 0.2      # y坐标
-        pose_target.position.z = 0.6      # z坐标
+    pose_target.orientation.w = 1.0   # 方向
+    pose_target.position.x = 0.6      # x坐标
+    pose_target.position.y = 0.2      # y坐标
+    pose_target.position.z = 0.6      # z坐标
 ```
 ### `movingAngle`函数
 ```python
-        print "Original Joint values: ", group_variable_values
-        # group_variable_values[]从0至5分别为底座至末端的关节，顺时针为正
-        # group_variable_values[] = 
-        # group_variable_values[1]表示从底座数起的第二个关节逆时针转到1.6
-        group_variable_values[1] = -1.6
+    print "Original Joint values: ", group_variable_values
+    # group_variable_values[num]=angle，num从0至5分别为底座至末端的关节，angle顺时针为正
+    # group_variable_values[1]表示从底座数起的第二个关节逆时针转动1.6
+    group_variable_values[1] = -1.6
 ```
