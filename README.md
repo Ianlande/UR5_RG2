@@ -99,3 +99,8 @@ def main():
     # group_variable_values[1]表示从底座数起的第二个关节逆时针转动1.6
     group_variable_values[1] = -1.6
 ```
+### 控制RG2闭合
+参考`control.py`
+```
+    self.request.target_width.data=0.0
+```
